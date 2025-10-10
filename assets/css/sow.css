@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(247, 255, 227);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+	color: #2c1f11;
+    background-color: #637643;
 }
 header {
-	background: #e8ff96;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background: #8b973e;
+	box-shadow: 0 2px 5px #2c1f11;
 }
 nav {
 	position: fixed;
@@ -21,7 +23,7 @@ nav ul li {
 }
 nav ul li a {
 	text-decoration: none;
-	color: #333;
+	color: #2c1f11;
 }
 section {
     height: 50vh;
