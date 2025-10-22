@@ -1,16 +1,18 @@
 body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-	color: #2c1f11;
-    background-color: #637643;
+	color: #ffffff;
+    background-color: #000000;
 }
 header {
-	background: #8b973e;
-	box-shadow: 0 2px 5px #2c1f11;
-}
+	
 nav {
 	position: fixed;
 	top: 0;
 	z-index: 1000;
+	background: #000000;
+	
+}
+
 }
 nav ul {
 	list-style: none;
@@ -19,13 +21,37 @@ nav ul {
 	display: flex;
 }
 nav ul li {
-	margin-right: 1rem;
+	margin-right: 20rem;
+	margin-left: 9rem;
+	margin-top: 1rem;
 }
 nav ul li a {
 	text-decoration: none;
-	color: #2c1f11;
+	color: #ffffff;
 }
 section {
-    height: 50vh;
+    height: 80vh;
     margin-left: 3rem;
+}
+
+
+.cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #27302d;
+	color: #ffffff;
+	height: 50vh;
+}
+.title {
+	font-size: 3rem;
+	text-transform: uppercase;
+	opacity: 0;
+	animation: fadeIn 2s forwards ease-in;
+}
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
 }
