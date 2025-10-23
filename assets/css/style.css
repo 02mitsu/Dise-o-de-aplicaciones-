@@ -114,7 +114,6 @@ footer a:hover {
 	}
 }
 
-/* Focus styles for keyboard navigation */
 a:focus,
 button:focus,
 input:focus,
@@ -124,7 +123,6 @@ select:focus {
 	outline-offset: 2px;
 }
 
-/* Skip link for screen readers */
 .skip-link {
 	position: absolute;
 	top: -40px;
