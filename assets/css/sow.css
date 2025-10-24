@@ -57,9 +57,7 @@ section {
 	}
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  background-color: #2a2a2a;
+ background-color: #2a2a2a;
   color: #000000;
   margin: 0;
   padding: 0;
@@ -156,8 +154,6 @@ section h2 {
   color: white;
   text-decoration: none;
   font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
   transition: color 0.3s ease;
 }
 
@@ -175,8 +171,6 @@ section h2 {
   border-radius: 1rem;
   border: 1px solid #ddd;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
   font-size: 1rem;
   line-height: 1.7;
   color: #333;
@@ -271,8 +265,6 @@ section h2 {
 
 
 body {
- font-family: Arial, Helvetica, sans-serif;
- font-weight: normal;
   line-height: 1.6;
   
 }
