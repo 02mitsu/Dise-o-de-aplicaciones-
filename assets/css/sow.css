@@ -235,7 +235,7 @@ section h2 {
   background-color: #e6f7ff;
   border-left: 4px solid #000000;
   border-radius: 0.5rem;
-  font-weight: 0;
+  font-weight: normal;
   color: #222;
 }
 
