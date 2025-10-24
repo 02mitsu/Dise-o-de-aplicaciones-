@@ -1,2 +1,5 @@
-@import url('http://meyerweb.com/eric/tools/css/reset/reset.css'); /* CSS Reset para compatibilidad entre navegadores */
-@import url('style.css'); /* Estilos principales */
+@import url('http://meyerweb.com/eric/tools/css/reset/reset.css'); 
+@import url('style.css'); 
+strong, b {
+    font-weight: normal; 
+}
